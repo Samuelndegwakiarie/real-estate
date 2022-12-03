@@ -1,0 +1,101 @@
+*{
+    padding-top: 0px;
+    margin: auto;
+    color: aliceblue;
+
+}
+.header
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0 ,0,0.5), rgba(0,0 ,0,0.5)), url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+.header img
+{
+    width: 150px;
+    float: left;
+}
+.login-btn
+{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    float: right;
+}
+.header h1
+{
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px 0;
+    font-size: 20px;
+    text-align: left;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 0 30px 30px!important;
+    margin: 2px;
+    box-shadow: none;
+}
+.input-group-append
+{
+    background-color: rgb(10, 207, 237);
+    border-radius: 100px ;
+    border: 0 !important;
+    color: #fff !important;
+    padding: 4 30px;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    
+}
+.input-group-append :hover
+{
+    background-color: rgb(41, 14, 100);
+    padding: 4 20px;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+}
+.varieties
+{
+    padding: 100px 0;
+
+}
+
+.varieties h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+}
+.varieties-img img
+{
+    color: black;
+    width: 100%;
+}
+.varieties p
+{
+    color: black;
+    text-decoration: solid;
+}
